@@ -20,6 +20,10 @@ Uncolored Circle                 |  Uncolored Ellipse               |  Uncolored
 :-------------------------:|:-------------------------:|:-------------------------:
 ![ScreenShot](/images/gui1.PNG)  |  ![ScreenShot](/images/gui2.PNG) | ![ScreenShot](/images/gui3.PNG)
 
+Colored Circle                 |  Colored Ellipse               |  Colored Square
+:-------------------------:|:-------------------------:|:-------------------------:
+![ScreenShot](/images/gui6.PNG)  |  ![ScreenShot](/images/gui5.PNG) | ![ScreenShot](/images/gui4.PNG)
+
 **Technologies Used**
 
 <hr>
