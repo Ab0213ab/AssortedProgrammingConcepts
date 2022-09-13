@@ -68,8 +68,7 @@ output three types of characters to a text area for display.
 -	THREAD 1: output random characters like a, b, c, d, …                             
 -	THREAD 2: output random digits like 0, 1, 2, 3, …                                 
 - THREAD 3: output random characters like !, @, #, $, …                             
-                                                                                    
-Display a minimum of 10,000 of each of the three sets.                              
+                                                                                                                  
 Write test code that ensures the code functions correctly.
 
 **Output**
