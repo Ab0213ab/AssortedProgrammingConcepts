@@ -1,8 +1,4 @@
 // Andrew Schaefer
-// 11/13/21
-// CSD420
-// Module 6 Assignment 
-// Mod_6_csd420.java
 
 /**************************************************************************************
 * ASSIGNMENT INSTRUCTIONS:                                                            *
@@ -21,7 +17,7 @@
 
 import java.util.*;
 
-public class Mod_6_csd420 {
+public class BubbleSort {
 
     // METHOD 1
     // Generic bubble sort method extends Comparable interface
