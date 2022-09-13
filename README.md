@@ -47,7 +47,7 @@ Write test code that ensures the code functions correctly.
 
 **Output**
 
-<img src="images/bubbleSort.PNG" width="50%">
+<img src="images/bubbleSort1.PNG" width="50%">
 
 **Technologies Used**
 - Java
