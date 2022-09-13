@@ -47,6 +47,8 @@ Write test code that ensures the code functions correctly.
 
 ![ScreenShot](/images/bubbleSort.PNG)
 
+<img src="images/bubbleSort.PNG" width="50%">
+
 **Technologies Used**
 - Java/JavaFX
 - JSON for configuration
