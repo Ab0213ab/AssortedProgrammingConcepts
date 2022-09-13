@@ -25,9 +25,11 @@ Colored Circle                 |  Colored Ellipse               |  Colored Squar
 ![ScreenShot](/images/gui6.PNG)  |  ![ScreenShot](/images/gui5.PNG) | ![ScreenShot](/images/gui4.PNG)
 
 **Technologies Used**
+- Java/JavaFX
+- JSON for configuration
+- Visual Studio Code IDE
 
 <hr>
-
 
 ## Developer Information
 Programmed by Andrew B. Schaefer [(Ab0213ab)](https://github.com/Ab0213ab) as an assignment for Bellevue University's B.S. in Software Development.
