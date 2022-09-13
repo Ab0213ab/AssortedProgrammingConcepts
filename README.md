@@ -16,7 +16,7 @@ a checkbox for filling and clearing the displayed figure with a random color.
 
 **Output**
 
-Book Inventory stored in database ->                   |  Cart and Customer Checkout Form ->               |  Purchase Summary
+>                          |                 |  
 :-------------------------:|:-------------------------:|:-------------------------:
 ![ScreenShot](ebookshop/WebContent/images/landing.PNG)  |  ![ScreenShot](ebookshop/WebContent/images/cart.PNG) | ![ScreenShot](ebookshop/WebContent/images/checkout.PNG)
 
