@@ -16,9 +16,9 @@ a checkbox for filling and clearing the displayed figure with a random color.
 
 **Output**
 
->                          |                 |  
+Uncolored Circle                 |  Uncolored Ellipse               |  Uncolored Square
 :-------------------------:|:-------------------------:|:-------------------------:
-![ScreenShot](ebookshop/WebContent/images/landing.PNG)  |  ![ScreenShot](ebookshop/WebContent/images/cart.PNG) | ![ScreenShot](ebookshop/WebContent/images/checkout.PNG)
+![ScreenShot](/images/gui1.PNG)  |  ![ScreenShot](/images/gui2.PNG) | ![ScreenShot](/images/gui3.PNG)
 
 **Technologies Used**
 
