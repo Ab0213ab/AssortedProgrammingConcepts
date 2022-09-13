@@ -38,8 +38,8 @@ Colored Circle                 |  Colored Ellipse               |  Colored Squar
 
 **Instructions**
 
-Write a program with the two following generic methods using a bubble sort. The first method sorts the elements using the Comparable interface, and the second     
-uses the Comparator interface.                                                     
+Write a program with the two following generic methods using a bubble sort. The first method sorts the elements using 
+the Comparable interface, and the second uses the Comparator interface.                                                     
                                                                                    
 1. public static <E extends Comparable<E>> void bubbleSort(E[] list) {}              
 2. public static <E> void bubbleSort(E[] list, Comparator<? super E> comparator) {}  
