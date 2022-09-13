@@ -9,6 +9,11 @@
 
 **Instructions**
 
+Assignment instructions: Write a program that displays various figures 
+such as a Circle, a Rectangle, or an Ellipse. Include radio buttons 
+selections for changing the display figure to the one selected. Include 
+a checkbox for filling and clearing the displayed figure with a random color.
+
 **Output**
 
 Book Inventory stored in database ->                   |  Cart and Customer Checkout Form ->               |  Purchase Summary
