@@ -4,7 +4,7 @@
 1. [JavaFXGUI](#JavaFXGUI)
 2. [BubbleSort](#bubblesort)
 3. [MultiThreading](#multithreading)
-4. [ArrayListDupRemove](arraylistdupremove)
+4. [ArrayListDupRemove](#arraylistdupremove)
 5. [Developer Information](#developer-information)
 
 ## JavaFXGUI
