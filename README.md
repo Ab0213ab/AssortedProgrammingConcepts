@@ -105,7 +105,7 @@ Write test code that ensures the code functions correctly.
 <hr>
 
 ## Developer Information
-Programmed by Andrew B. Schaefer [(Ab0213ab)](https://github.com/Ab0213ab) as an assignment for Bellevue University's B.S. in Software Development.
+Programmed by Andrew B. Schaefer [(Ab0213ab)](https://github.com/Ab0213ab).
 
 LinkedIn: https://www.linkedin.com/in/andrewbschaefer/
 
