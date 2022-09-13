@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [JavaFXGUI](#JavaFXGUI)
 2. [NextProgram](#NextProgram)
-3. [Developer Information](Developer Information)
+3. [Developer Information](developer-information)
 
 ## JavaFXGUI
 
