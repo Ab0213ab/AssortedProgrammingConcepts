@@ -3,7 +3,8 @@
 ## Table of Contents
 1. [JavaFXGUI](#JavaFXGUI)
 2. [BubbleSort](#bubblesort)
-3. [Developer Information](#developer-information)
+3. [MultiThreading](#multithreading)
+4. [Developer Information](#developer-information)
 
 ## JavaFXGUI
 
@@ -48,6 +49,32 @@ Write test code that ensures the code functions correctly.
 **Output**
 
 <img src="images/bubbleSort1.PNG" width="50%">
+
+**Technologies Used**
+- Java
+- Visual Studio Code IDE
+
+[Back to Table of Contents](#table-of-contents)
+
+<hr>
+
+## MultiThreading
+
+**Instructions**
+
+Create a class titled <your first name here> ThreeThreads. Use three threads to 
+output three types of characters to a text area for display.                        
+                                                                                    
+-	THREAD 1: output random characters like a, b, c, d, …                             
+-	THREAD 2: output random digits like 0, 1, 2, 3, …                                 
+- THREAD 3: output random characters like !, @, #, $, …                             
+                                                                                    
+Display a minimum of 10,000 of each of the three sets.                              
+Write test code that ensures the code functions correctly.
+
+**Output**
+
+<img src="images/multiThreading.PNG" width="50%">
 
 **Technologies Used**
 - Java
