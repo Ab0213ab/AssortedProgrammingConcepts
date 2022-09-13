@@ -4,7 +4,8 @@
 1. [JavaFXGUI](#JavaFXGUI)
 2. [BubbleSort](#bubblesort)
 3. [MultiThreading](#multithreading)
-4. [Developer Information](#developer-information)
+4. [ArrayListDupRemove](arraylistdupremove)
+5. [Developer Information](#developer-information)
 
 ## JavaFXGUI
 
@@ -74,6 +75,26 @@ Write test code that ensures the code functions correctly.
 **Output**
 
 <img src="images/multiThreading.PNG" width="20%" height="20%">
+
+**Technologies Used**
+- Java
+- Visual Studio Code IDE
+
+[Back to Table of Contents](#table-of-contents)
+
+<hr>
+
+## ArrayListDupRemove
+
+**Instructions**
+
+Write a test program that contains a static method that returns a new ArrayList. The new ArrayList returned will contain all original values with no duplicates from the original ArrayList. Fill the Original ArrrayList with 50 random values from 1 to 20.
+
+Write test code that ensures the code functions correctly.
+ 
+**Output**
+
+<img src="images/arrayListDupRemove.PNG" width="50%">
 
 **Technologies Used**
 - Java
