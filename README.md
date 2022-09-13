@@ -94,7 +94,7 @@ Write test code that ensures the code functions correctly.
  
 **Output**
 
-<img src="images/arrayListDupRemove.PNG" width="70%" height="70%">
+<img src="images/arrayListDupRemove.PNG" width="80%" height="80%">
 
 **Technologies Used**
 - Java
