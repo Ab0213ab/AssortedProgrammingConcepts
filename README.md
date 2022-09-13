@@ -35,10 +35,14 @@ Colored Circle                 |  Colored Ellipse               |  Colored Squar
 
 **Instructions**
 
-Assignment instructions: Write a program that displays various figures 
-such as a Circle, a Rectangle, or an Ellipse. Include radio buttons 
-selections for changing the display figure to the one selected. Include 
-a checkbox for filling and clearing the displayed figure with a random color.
+Write a program with the two following generic methods using a bubble sort. The    
+first method sorts the elements using the Comparable interface, and the second     
+uses the Comparator interface.                                                     
+                                                                                   
+1. public static <E extends Comparable<E>> void bubbleSort(E[] list) {}              
+2. public static <E> void bubbleSort(E[] list, Comparator<? super E> comparator) {}  
+                                                                                     
+Write test code that ensures the code functions correctly. 
 
 **Output**
 
