@@ -73,7 +73,7 @@ Write test code that ensures the code functions correctly.
 
 **Output**
 
-<img src="images/multiThreading.PNG" width="50%">
+<img src="images/multiThreading.PNG" width="50%" height="50%">
 
 **Technologies Used**
 - Java
