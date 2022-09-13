@@ -3,7 +3,8 @@
 ## Table of Contents
 1. [JavaFXGUI](#JavaFXGUI)
 2. [BubbleSort](#bubblesort)
-3. [Developer Information](#developer-information)
+3. [MultiThreading](#multithreading)
+4. [Developer Information](#developer-information)
 
 ## JavaFXGUI
 
@@ -37,8 +38,8 @@ Colored Circle                 |  Colored Ellipse               |  Colored Squar
 
 **Instructions**
 
-Write a program with the two following generic methods using a bubble sort. The first method sorts the elements using the Comparable interface, and the second     
-uses the Comparator interface.                                                     
+Write a program with the two following generic methods using a bubble sort. The first method sorts the elements using 
+the Comparable interface, and the second uses the Comparator interface.                                                     
                                                                                    
 1. public static <E extends Comparable<E>> void bubbleSort(E[] list) {}              
 2. public static <E> void bubbleSort(E[] list, Comparator<? super E> comparator) {}  
@@ -48,6 +49,31 @@ Write test code that ensures the code functions correctly.
 **Output**
 
 <img src="images/bubbleSort1.PNG" width="50%">
+
+**Technologies Used**
+- Java
+- Visual Studio Code IDE
+
+[Back to Table of Contents](#table-of-contents)
+
+<hr>
+
+## MultiThreading
+
+**Instructions**
+
+Create a class titled <your first name here> ThreeThreads. Use three threads to 
+output three types of characters to a text area for display.                        
+                                                                                    
+-	THREAD 1: output random characters like a, b, c, d, …                             
+-	THREAD 2: output random digits like 0, 1, 2, 3, …                                 
+- THREAD 3: output random characters like !, @, #, $, …                             
+                                                                                                                  
+Write test code that ensures the code functions correctly.
+
+**Output**
+
+<img src="images/multiThreading.PNG" width="20%" height="20%">
 
 **Technologies Used**
 - Java
