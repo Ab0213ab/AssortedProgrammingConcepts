@@ -29,6 +29,8 @@ Colored Circle                 |  Colored Ellipse               |  Colored Squar
 - JSON for configuration
 - Visual Studio Code IDE
 
+[Back to Table of Contents](#table-of-contents)
+
 <hr>
 
 ## BubbleSort
@@ -45,14 +47,13 @@ Write test code that ensures the code functions correctly.
 
 **Output**
 
-![ScreenShot](/images/bubbleSort.PNG)
-
 <img src="images/bubbleSort.PNG" width="50%">
 
 **Technologies Used**
-- Java/JavaFX
-- JSON for configuration
+- Java
 - Visual Studio Code IDE
+
+[Back to Table of Contents](#table-of-contents)
 
 <hr>
 
