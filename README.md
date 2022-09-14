@@ -169,7 +169,7 @@ Write test code that ensures the code functions correctly.
  
 **Output**
 
-<img src="images/PrintToFileIO.PNG" width="40%" height="40%">
+<img src="images/PrintToFileIO.PNG" width="60%" height="40%">
 
 **Technologies Used**
 - Java
