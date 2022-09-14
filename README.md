@@ -1,10 +1,12 @@
-# AdvancedJavaConcepts
+# AdvancedProgrammingConcepts
 
 ## Table of Contents
 1. [JavaFXGUI](#JavaFXGUI)
 2. [BubbleSort](#bubblesort)
 3. [MultiThreading](#multithreading)
 4. [ArrayListDupRemove](#arraylistdupremove)
+5. [LambdaExpressions](#lambdaexpressions)
+6. [IteratorVsGetMethod](#iteratorvsgetmethod)
 5. [Developer Information](#developer-information)
 
 ## JavaFXGUI
@@ -88,13 +90,65 @@ Write test code that ensures the code functions correctly.
 
 **Instructions**
 
-Write a test program that contains a static method that returns a new ArrayList. The new ArrayList returned will contain all original values with no duplicates from the original ArrayList. Fill the Original ArrrayList with 50 random values from 1 to 20.
+Write a test program that contains a static method that returns a new ArrayList. The new ArrayList returned will 
+contain all original values with no duplicates from the original ArrayList. Fill the Original ArrrayList with 
+50 random values from 1 to 20.
 
 Write test code that ensures the code functions correctly.
  
 **Output**
 
 <img src="images/arrayListDupRemove.PNG" width="80%" height="80%">
+
+**Technologies Used**
+- Java
+- Visual Studio Code IDE
+
+[Back to Table of Contents](#table-of-contents)
+
+<hr>
+
+## LambdaExpressions
+
+**Instructions**
+
+Write a program that declares a method that takes an ArrayList as a parameter. Iterate through the ArrayList 
+and print each element once with and once without Lambda Expressions.
+
+Write test code that ensures the code functions correctly.
+ 
+**Output**
+
+<img src="images/LambdaExpressions.PNG" width="40%" height="40%">
+
+**Technologies Used**
+- Java
+- Visual Studio Code IDE
+
+[Back to Table of Contents](#table-of-contents)
+
+<hr>
+
+## IteratorVsGetMethod
+
+**Instructions**
+
+Write a test program that stores 50,000 integers in LinkedList and test the time to traverse the list using 
+an iterator vs. using the get(index) method. Then, test your program storing 500,000 integers. After 
+completing this program and having tested both values, in your comments, explain the results and discuss 
+the time taken using both values and their difference with the get(index) approach.
+
+Write test code that ensures the code functions correctly.
+ 
+**Output**
+
+50,000 Elements with Iterator                 |  50,000 Elements with get(index)             
+:-------------------------:|:-------------------------:
+![ScreenShot](/images/ivg1.PNG)  |  ![ScreenShot](/images/ivg2.PNG) 
+
+500,000 Elements with Iterator                 |  500,000 Elements with get(index)             
+:-------------------------:|:-------------------------:
+![ScreenShot](/images/ivg3.PNG)  |  ![ScreenShot](/images/ivg4.PNG) 
 
 **Technologies Used**
 - Java
