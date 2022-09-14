@@ -163,14 +163,13 @@ Write test code that ensures the code functions correctly.
 
 **Instructions**
 
-Write a program that declares a method that takes an ArrayList as a parameter. Iterate through the ArrayList 
-and print each element once with and once without Lambda Expressions.
+Write a test program that reads words from a text file and displays all non-duplicate words in ascending order and then in descending order. The file is to be referenced in the program, not needing to be used as a command line reference. The word file is to be titled collection_of_words.txt.                         
 
 Write test code that ensures the code functions correctly.
  
 **Output**
 
-<img src="images/LambdaExpressions.PNG" width="40%" height="40%">
+<img src="images/PrintToFileIO.PNG" width="40%" height="40%">
 
 **Technologies Used**
 - Java
