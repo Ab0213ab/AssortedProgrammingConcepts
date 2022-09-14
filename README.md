@@ -142,6 +142,14 @@ Write test code that ensures the code functions correctly.
  
 **Output**
 
+50,000 Elements with Iterator                 |  50,000 Elements with get(index)             
+:-------------------------:|:-------------------------:
+![ScreenShot](/images/ivg1.PNG)  |  ![ScreenShot](/images/ivg2.PNG) 
+
+500,000 Elements with Iterator                 |  500,000 Elements with get(index)             
+:-------------------------:|:-------------------------:
+![ScreenShot](/images/ivg3.PNG)  |  ![ScreenShot](/images/ivg4.PNG) 
+
 <img src="images/arrayListDupRemove.PNG" width="80%" height="80%">
 
 **Technologies Used**
