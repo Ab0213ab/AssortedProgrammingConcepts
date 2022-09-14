@@ -7,7 +7,8 @@
 4. [ArrayListDupRemove](#arraylistdupremove)
 5. [LambdaExpressions](#lambdaexpressions)
 6. [IteratorVsGetMethod](#iteratorvsgetmethod)
-5. [Developer Information](#developer-information)
+7. [PrintToFileIO](#printtofileio)
+8. [Developer Information](#developer-information)
 
 ## JavaFXGUI
 
@@ -149,6 +150,27 @@ Write test code that ensures the code functions correctly.
 500,000 Elements with Iterator                 |  500,000 Elements with get(index)             
 :-------------------------:|:-------------------------:
 ![ScreenShot](/images/ivg3.PNG)  |  ![ScreenShot](/images/ivg4.PNG) 
+
+**Technologies Used**
+- Java
+- Visual Studio Code IDE
+
+[Back to Table of Contents](#table-of-contents)
+
+<hr>
+
+## PrintToFileIO
+
+**Instructions**
+
+Write a program that declares a method that takes an ArrayList as a parameter. Iterate through the ArrayList 
+and print each element once with and once without Lambda Expressions.
+
+Write test code that ensures the code functions correctly.
+ 
+**Output**
+
+<img src="images/LambdaExpressions.PNG" width="40%" height="40%">
 
 **Technologies Used**
 - Java
