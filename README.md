@@ -150,8 +150,6 @@ Write test code that ensures the code functions correctly.
 :-------------------------:|:-------------------------:
 ![ScreenShot](/images/ivg3.PNG)  |  ![ScreenShot](/images/ivg4.PNG) 
 
-<img src="images/arrayListDupRemove.PNG" width="80%" height="80%">
-
 **Technologies Used**
 - Java
 - Visual Studio Code IDE
