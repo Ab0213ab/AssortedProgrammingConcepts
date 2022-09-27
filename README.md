@@ -1,4 +1,4 @@
-# AdvancedProgrammingConcepts
+# AssortedProgrammingConcepts
 
 ## Table of Contents
 1. [JavaFXGUI](#JavaFXGUI)
