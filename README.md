@@ -1,6 +1,8 @@
 # AssortedProgrammingConcepts
 
-## Table of Contents 
+## Table of Contents
+(This repository is still under construction. Some programs listed
+may not be in the table of contents yet)
 1. [JavaFXPaycheckCalculator](#JavaFXPaycheckCalculator)
 2. [JavaFXGUI](#JavaFXGUI)
 3. [BubbleSort](#bubblesort)
