@@ -25,6 +25,7 @@ to easily calculate her paycheck each month.
 
 **Technologies Used**
 - Java/JavaFX
+- JSON for configuration
 - Visual Studio Code IDE
 
 [Back to Table of Contents](#table-of-contents)
