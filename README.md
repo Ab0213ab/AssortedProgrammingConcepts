@@ -1,15 +1,35 @@
 # AssortedProgrammingConcepts
 
-## Table of Contents
-1. [JavaFXGUI](#JavaFXGUI)
-2. [BubbleSort](#bubblesort)
-3. [MultiThreading](#multithreading)
-4. [ArrayListDupRemove](#arraylistdupremove)
-5. [LambdaExpressions](#lambdaexpressions)
-6. [IteratorVsGetMethod](#iteratorvsgetmethod)
-7. [PrintToFileIO](#printtofileio)
-8. [RockPaperScissors](#rockpaperscissors)
-9. [Developer Information](#developer-information)
+## Table of Contents 
+1. [JavaFXPaycheckCalculator](#JavaFXPaycheckCalculator)
+2. [JavaFXGUI](#JavaFXGUI)
+3. [BubbleSort](#bubblesort)
+4. [MultiThreading](#multithreading)
+5. [ArrayListDupRemove](#arraylistdupremove)
+6. [LambdaExpressions](#lambdaexpressions)
+7. [IteratorVsGetMethod](#iteratorvsgetmethod)
+8. [PrintToFileIO](#printtofileio)
+9. [RockPaperScissors](#rockpaperscissors)
+10. [Developer Information](#developer-information)
+
+## JavaFXPaycheckCalculator
+
+**Goal**
+
+Write a simple program with a JavaFX GUI which will allow my wife
+to easily calculate her paycheck each month.                                                      
+
+**Output**
+
+<img src="images/paycheckCalc.PNG" width="50%">
+
+**Technologies Used**
+- Java/JavaFX
+- Visual Studio Code IDE
+
+[Back to Table of Contents](#table-of-contents)
+
+<hr>
 
 ## JavaFXGUI
 
