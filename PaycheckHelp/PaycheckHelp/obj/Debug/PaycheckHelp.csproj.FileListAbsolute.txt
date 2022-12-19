@@ -1,0 +1,15 @@
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelp.csproj.AssemblyReference.cache
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelp.csproj.SuggestedBindingRedirects.cache
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelp.Properties.Resources.resources
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelp.csproj.GenerateResource.cache
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelp.csproj.CoreCompileInputs.cache
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelp.Form1.resources
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\bin\Debug\PaycheckHelper.exe.config
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\bin\Debug\PaycheckHelper.exe.manifest
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\bin\Debug\PaycheckHelper.application
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\bin\Debug\PaycheckHelper.exe
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\bin\Debug\PaycheckHelper.pdb
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelper.exe.manifest
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelper.application
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelper.exe
+C:\Users\absch\OneDrive\Desktop\PaycheckHelp\PaycheckHelp\obj\Debug\PaycheckHelper.pdb

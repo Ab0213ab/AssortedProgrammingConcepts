@@ -9,6 +9,13 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
+            "projectName": "JavaFXPaycheckCalculator_375c2045"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
             "projectName": "JavaFXPaycheckCalculator_f4acb51d"
         },
         {
@@ -24,7 +31,6 @@
             "mainClass": "App",
             "projectName": "JavaFXPaycheckCalculator_27c961eb",
             "vmArgs": "--module-path \"C:/JavaFXStuff/javafx-sdk-18.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
-            
         }
     ]
 }
