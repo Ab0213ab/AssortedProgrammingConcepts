@@ -40,12 +40,13 @@
             this.welcome = new System.Windows.Forms.Label();
             this.instructions = new System.Windows.Forms.Label();
             this.btn_clear = new System.Windows.Forms.Button();
+            this.btn_settings = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_calculate
             // 
             this.btn_calculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_calculate.Location = new System.Drawing.Point(305, 708);
+            this.btn_calculate.Location = new System.Drawing.Point(301, 813);
             this.btn_calculate.Margin = new System.Windows.Forms.Padding(5);
             this.btn_calculate.Name = "btn_calculate";
             this.btn_calculate.Size = new System.Drawing.Size(204, 86);
@@ -56,7 +57,7 @@
             // 
             // totalHoursTextBox
             // 
-            this.totalHoursTextBox.Location = new System.Drawing.Point(169, 259);
+            this.totalHoursTextBox.Location = new System.Drawing.Point(200, 388);
             this.totalHoursTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.totalHoursTextBox.Name = "totalHoursTextBox";
             this.totalHoursTextBox.Size = new System.Drawing.Size(743, 44);
@@ -64,7 +65,7 @@
             // 
             // internationalPerDiemTextBox
             // 
-            this.internationalPerDiemTextBox.Location = new System.Drawing.Point(169, 552);
+            this.internationalPerDiemTextBox.Location = new System.Drawing.Point(200, 665);
             this.internationalPerDiemTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.internationalPerDiemTextBox.Name = "internationalPerDiemTextBox";
             this.internationalPerDiemTextBox.Size = new System.Drawing.Size(743, 44);
@@ -72,7 +73,7 @@
             // 
             // domesticPerDiemTextBox
             // 
-            this.domesticPerDiemTextBox.Location = new System.Drawing.Point(169, 406);
+            this.domesticPerDiemTextBox.Location = new System.Drawing.Point(200, 532);
             this.domesticPerDiemTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.domesticPerDiemTextBox.Name = "domesticPerDiemTextBox";
             this.domesticPerDiemTextBox.Size = new System.Drawing.Size(743, 44);
@@ -80,8 +81,8 @@
             // 
             // paycheckAmountTextBox
             // 
-            this.paycheckAmountTextBox.Location = new System.Drawing.Point(169, 881);
-            this.paycheckAmountTextBox.Margin = new System.Windows.Forms.Padding(3, 3, 3, 50);
+            this.paycheckAmountTextBox.Location = new System.Drawing.Point(200, 929);
+            this.paycheckAmountTextBox.Margin = new System.Windows.Forms.Padding(3, 3, 3, 100);
             this.paycheckAmountTextBox.Name = "paycheckAmountTextBox";
             this.paycheckAmountTextBox.Size = new System.Drawing.Size(743, 44);
             this.paycheckAmountTextBox.TabIndex = 5;
@@ -91,7 +92,7 @@
             this.totalHoursLabel.AutoSize = true;
             this.totalHoursLabel.BackColor = System.Drawing.Color.Transparent;
             this.totalHoursLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalHoursLabel.Location = new System.Drawing.Point(422, 330);
+            this.totalHoursLabel.Location = new System.Drawing.Point(458, 457);
             this.totalHoursLabel.Margin = new System.Windows.Forms.Padding(5);
             this.totalHoursLabel.Name = "totalHoursLabel";
             this.totalHoursLabel.Padding = new System.Windows.Forms.Padding(3);
@@ -105,7 +106,7 @@
             this.domesticPerDiemLabel.AutoSize = true;
             this.domesticPerDiemLabel.BackColor = System.Drawing.Color.Transparent;
             this.domesticPerDiemLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.domesticPerDiemLabel.Location = new System.Drawing.Point(253, 472);
+            this.domesticPerDiemLabel.Location = new System.Drawing.Point(294, 595);
             this.domesticPerDiemLabel.Margin = new System.Windows.Forms.Padding(5);
             this.domesticPerDiemLabel.Name = "domesticPerDiemLabel";
             this.domesticPerDiemLabel.Padding = new System.Windows.Forms.Padding(3);
@@ -118,7 +119,7 @@
             // 
             this.internationalPerDiemLlabel.BackColor = System.Drawing.Color.Transparent;
             this.internationalPerDiemLlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.internationalPerDiemLlabel.Location = new System.Drawing.Point(221, 616);
+            this.internationalPerDiemLlabel.Location = new System.Drawing.Point(259, 732);
             this.internationalPerDiemLlabel.Margin = new System.Windows.Forms.Padding(5);
             this.internationalPerDiemLlabel.Name = "internationalPerDiemLlabel";
             this.internationalPerDiemLlabel.Padding = new System.Windows.Forms.Padding(3);
@@ -132,7 +133,7 @@
             this.welcome.AutoSize = true;
             this.welcome.BackColor = System.Drawing.Color.Transparent;
             this.welcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcome.Location = new System.Drawing.Point(91, 44);
+            this.welcome.Location = new System.Drawing.Point(112, 180);
             this.welcome.Margin = new System.Windows.Forms.Padding(5);
             this.welcome.Name = "welcome";
             this.welcome.Padding = new System.Windows.Forms.Padding(5);
@@ -145,7 +146,7 @@
             this.instructions.AutoSize = true;
             this.instructions.BackColor = System.Drawing.Color.Transparent;
             this.instructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.instructions.Location = new System.Drawing.Point(111, 124);
+            this.instructions.Location = new System.Drawing.Point(128, 251);
             this.instructions.Margin = new System.Windows.Forms.Padding(5);
             this.instructions.Name = "instructions";
             this.instructions.Padding = new System.Windows.Forms.Padding(5);
@@ -156,7 +157,7 @@
             // btn_clear
             // 
             this.btn_clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_clear.Location = new System.Drawing.Point(597, 708);
+            this.btn_clear.Location = new System.Drawing.Point(665, 813);
             this.btn_clear.Margin = new System.Windows.Forms.Padding(5);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(204, 86);
@@ -164,6 +165,17 @@
             this.btn_clear.Text = "Clear";
             this.btn_clear.UseVisualStyleBackColor = true;
             this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
+            // 
+            // btn_settings
+            // 
+            this.btn_settings.Image = ((System.Drawing.Image)(resources.GetObject("btn_settings.Image")));
+            this.btn_settings.Location = new System.Drawing.Point(969, 25);
+            this.btn_settings.Name = "btn_settings";
+            this.btn_settings.Padding = new System.Windows.Forms.Padding(5);
+            this.btn_settings.Size = new System.Drawing.Size(137, 122);
+            this.btn_settings.TabIndex = 10;
+            this.btn_settings.UseVisualStyleBackColor = true;
+            this.btn_settings.Click += new System.EventHandler(this.btn_settings_Click);
             // 
             // Form1
             // 
@@ -173,7 +185,8 @@
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1135, 947);
+            this.ClientSize = new System.Drawing.Size(1135, 993);
+            this.Controls.Add(this.btn_settings);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.instructions);
             this.Controls.Add(this.welcome);
@@ -191,6 +204,8 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Paycheck Helper";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,6 +224,7 @@
         private System.Windows.Forms.Label welcome;
         private System.Windows.Forms.Label instructions;
         private System.Windows.Forms.Button btn_clear;
+        private System.Windows.Forms.Button btn_settings;
     }
 }
 

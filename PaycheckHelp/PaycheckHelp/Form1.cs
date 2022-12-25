@@ -9,19 +9,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static PaycheckHelp.PayPeriod;
 
 namespace PaycheckHelp
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
+
         }
 
+        // Clears all form data
+        private void ClearAllForm1Fields()
+        {
+            totalHoursTextBox.Clear();
+            domesticPerDiemTextBox.Clear();
+            internationalPerDiemTextBox.Clear();
+            paycheckAmountTextBox.Clear();
+        }
+
+        /* 
+         * Create a PayPeriod class using Form1 text boxes as values
+         * Instantiate new obj w/ Form1 text boxes on button click
+         * Pass the object to CalculatePaycheck()
+         * Access values using obj.totalHours syntax
+         */
+
+        // Accesses TextBox data and uses it as args for calculatePaycheck() 
         private void btn_calculate_Click(object sender, EventArgs e)
         {
-            // MOVE TRY/CATCH TO METHOD?
             try
             {
                 double totalHours = double.Parse(totalHoursTextBox.Text);
@@ -29,7 +49,7 @@ namespace PaycheckHelp
                 double internationalPerDiemHours = double.Parse(internationalPerDiemTextBox.Text);
 
                 double paycheck = Paycheck.calculatePaycheck(totalHours, domesticPerDiemHours,
-                                      internationalPerDiemHours);
+                                                             internationalPerDiemHours);
 
                 paycheckAmountTextBox.Text += "~ $" + paycheck;
             }
@@ -37,17 +57,47 @@ namespace PaycheckHelp
             // Handles exceptions for both empty fields and invlaid input
             catch (System.FormatException) 
             {
-                paycheckAmountTextBox.Text += "All fields must be filled with numbers only!";
+                MessageBox.Show(SettingsForm.errorMessageBoxContent);
+                ClearAllForm1Fields();
             }
         }
 
         // Clears all form data
         private void btn_clear_Click(object sender, EventArgs e)
         {
-                totalHoursTextBox.Clear();
-                domesticPerDiemTextBox.Clear();
-                internationalPerDiemTextBox.Clear();
-                paycheckAmountTextBox.Clear();
+            ClearAllForm1Fields();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_settings_Click(object sender, EventArgs e)
+        {
+            SettingsForm settForm = new SettingsForm();
+            settForm.ShowDialog();
+        }
+
+        // Gives user the chance to log paycheck data
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            string logMessage = "Do you want to log your paycheck estimation?";
+
+            // Checks if there is data to save
+            if (paycheckAmountTextBox.Text.Length > 0)
+            {
+                if (MessageBox.Show(logMessage, "Paycheck Helper",
+                    MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    // Cancel the Closing event to stop the form from closing.
+                    e.Cancel = true;
+
+                    // METHOD DOES NOT EXIST YET:
+                    // logPaycheckAmount(paycheckAmountTextBox.Text);
+                }
+            }
+
         }
     }
 }

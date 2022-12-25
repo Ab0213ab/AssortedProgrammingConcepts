@@ -5,29 +5,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+//using static PaycheckHelp.PayPeriod;
 
 namespace PaycheckHelp
 {
     internal class Paycheck
     {
-        static double payRate = 40.16;
-        static double domesticPerDiemRate = 2.20;
-        static double internationalPerDiemRate = 2.50;
-        static double taxRate = .75;
+        // Ensures no hard coded values as data is saved in properties
+        static double payRate = Properties.Settings.Default.PayRate;
+        static double domesticPerDiemRate = Properties.Settings.Default.DomesticPerDiemRate;
+        static double internationalPerDiemRate = Properties.Settings.Default.InternationalPerDiemRate;
+        static double taxRate = Properties.Settings.Default.TaxRate;
+
 
         // Calculates paycheck amount based on Paycheck class
-        // variables and user input
+        // fields and user input.
         public static double calculatePaycheck(double totalHours, 
-                                               double domesticPerDiemHours,
+                                               double domesticPerDiemHours, 
                                                double internationalPerDiemHours)
         {
-            // CHANGE PREVENTER CODE SMELL? PERHAPS LONG METHOD?
-            // NEEDS EXTRACT VARIABLE?
-            double paycheckTotal = ((totalHours - 37.5) * payRate) * taxRate +
+
+            PayPeriod payPeriod = new PayPeriod();
+
+            payPeriod.TotalHours = totalHours;
+            payPeriod.DomesticPerDiemHours = domesticPerDiemHours;
+            payPeriod.InternationalPerDiemHours = internationalPerDiemHours;
+
+            // This calculator is for the 2nd paycheck of the month only
+            // so 37.5 hours are subtracted right away.
+
+            // Per Diem is untaxed
+            payPeriod.PaycheckTotal = ((totalHours - 37.5) * payRate) * taxRate +
             (domesticPerDiemHours * domesticPerDiemRate) +
             (internationalPerDiemHours * internationalPerDiemRate);
 
-            return paycheckTotal;
+            return payPeriod.PaycheckTotal;
         }
 
     }
