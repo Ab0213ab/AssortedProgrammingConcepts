@@ -84,6 +84,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MyGlobals.cs" />
     <Compile Include="Paycheck.cs" />
     <Compile Include="PayPeriod.cs" />
     <Compile Include="Program.cs" />

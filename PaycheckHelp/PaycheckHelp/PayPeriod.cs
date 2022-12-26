@@ -9,8 +9,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace PaycheckHelp
 {
-    [Serializable()]
-    internal class PayPeriod
+    [Serializable]
+    public class PayPeriod : ISerializable
     {
         private double totalHours;
         public double TotalHours 
@@ -40,6 +40,9 @@ namespace PaycheckHelp
             set { paychecktotal = value; }
         }
 
-        public double PaycheckTotal { get; internal set; }
+        void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

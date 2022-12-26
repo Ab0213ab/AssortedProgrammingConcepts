@@ -58,7 +58,7 @@ namespace PaycheckHelp
                 List<string> SettingsList = new List<string>() {"New Pay Rate: $" + newPayRate.ToString("f2"),
                                                                 "New Domestic Per Diem Rate: $" + newDomesticPerDiemRate.ToString("f2"),
                                                                 "New International Per Diem Rate: $" + newInternationalPerDiemRate.ToString("f2"),
-                                                                "New Tax Rate: " + newTaxRate.ToString("f2")};
+                                                                "New Tax Rate: $" + newTaxRate.ToString("f2")};
                 string delimiter = ", \n";
                 string messageBoxContent = changeMessage + String.Join(delimiter, SettingsList);
 

@@ -26,21 +26,15 @@ namespace PaycheckHelp
                                                double internationalPerDiemHours)
         {
 
-            PayPeriod payPeriod = new PayPeriod();
-
-            payPeriod.TotalHours = totalHours;
-            payPeriod.DomesticPerDiemHours = domesticPerDiemHours;
-            payPeriod.InternationalPerDiemHours = internationalPerDiemHours;
-
             // This calculator is for the 2nd paycheck of the month only
             // so 37.5 hours are subtracted right away.
 
             // Per Diem is untaxed
-            payPeriod.PaycheckTotal = ((totalHours - 37.5) * payRate) * taxRate +
+            double paycheckTotal = ((totalHours - 37.5) * payRate) * taxRate +
             (domesticPerDiemHours * domesticPerDiemRate) +
             (internationalPerDiemHours * internationalPerDiemRate);
 
-            return payPeriod.PaycheckTotal;
+            return paycheckTotal;
         }
 
     }

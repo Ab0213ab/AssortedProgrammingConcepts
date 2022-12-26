@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PaycheckHelper.exe" size="408544">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PaycheckHelper.exe" size="410080">
       <assemblyIdentity name="PaycheckHelper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>elhDfIltNFqi2v4YFU+ZoJt2437/wm5x4A5dizi+qb0=</dsig:DigestValue>
+        <dsig:DigestValue>1y0UYSth4IO7olgh0YIQ/SqWKcrbdl/HTL21bNbAkAU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
