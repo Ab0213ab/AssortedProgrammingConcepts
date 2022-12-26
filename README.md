@@ -28,6 +28,10 @@ Calculation                 |  Exception Handling
 :-------------------------:|:-------------------------:
 ![ScreenShot](/images/pch1.PNG)  |  ![ScreenShot](/images/pch2.PNG) 
 
+Stored User Settings       |  ...             
+:-------------------------:|:-------------------------:
+![ScreenShot](/images/pch3.PNG)  |  ![ScreenShot](/images/pch4.PNG)
+
 **Technologies Used**
 - C#/.NET
 - Visual Studio Community IDE
