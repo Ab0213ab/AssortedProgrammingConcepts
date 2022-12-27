@@ -34,7 +34,7 @@ Stored User Settings       |  ...
 
 XML Serialization/Deserialization       |             
 :-------------------------:|
-![ScreenShot](/images/pch5.PNG)  
+<img src="images/pch5.PNG" width="50%"> 
 
 **Technologies Used**
 - C#/.NET
