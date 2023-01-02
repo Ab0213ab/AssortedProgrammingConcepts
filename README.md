@@ -32,6 +32,10 @@ Stored User Settings       |  ...
 :-------------------------:|:-------------------------:
 ![ScreenShot](/images/pch3.PNG)  |  ![ScreenShot](/images/pch4.PNG)
 
+XML Serialization/Deserialization       |             
+:-------------------------:|
+<img src="images/pch5.PNG" width="50%"> 
+
 **Technologies Used**
 - C#/.NET
 - Visual Studio Community IDE
